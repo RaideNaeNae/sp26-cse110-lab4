@@ -1,0 +1,2 @@
+1.  The bug was that both values were being treated as strings instead of as actual numbers ot be added. This made the + operator act as string concatenation instead of addition.
+2. I would fix it by casting the numbers into actual numbers instead of strings.
